@@ -28,6 +28,7 @@ resource "aws_s3_bucket" "remote-state" {
     "Description" = "Stores terraform remote state files"
     "ManagedBy"   = "Terraform"
     "Year"        = "2022"
+    "Month"       = "Jun"
   }
 }
 
