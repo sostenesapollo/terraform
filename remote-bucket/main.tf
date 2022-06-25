@@ -7,12 +7,7 @@ terraform {
     }
   }
 
-  backend "s3" {
-    bucket  = "tfstate-750497782054"
-    key     = "dev/remote-bucket/terraform.tfstate"
-    region  = "us-east-1"
-    profile = "tf01"
-  }
+  backend "s3" {}
 }
 
 provider "aws" {
