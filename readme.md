@@ -1,4 +1,4 @@
-### Usefull commands
+### Useful commands
 
 > Configure locally aws profile with your credentials
 ```bash
